@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>BuildVersion</key>
-	<string>68</string>
+	<string>1</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.2.5</string>
+	<string>3.6.0</string>
 	<key>CFBundleVersion</key>
-	<string>3.2.5b3</string>
+	<string>3.6.0b1</string>
 	<key>ProjectName</key>
 	<string>AppleBroadcom570X</string>
 	<key>SourceVersion</key>
-	<string>325002003000000</string>
+	<string>360002001000000</string>
 </dict>
 </plist>

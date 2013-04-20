@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>12A267</string>
+	<string>12D49</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -21,21 +21,21 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>2.3.0b4</string>
+	<string>2.3.0b5</string>
 	<key>DTCompiler</key>
 	<string></string>
 	<key>DTPlatformBuild</key>
-	<string>4F212</string>
+	<string>4F250</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>12A267</string>
+	<string>12D49</string>
 	<key>DTSDKName</key>
 	<string></string>
 	<key>DTXcode</key>
 	<string>0440</string>
 	<key>DTXcodeBuild</key>
-	<string>4F212</string>
+	<string>4F250</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Intel82574L</key>
@@ -81,8 +81,10 @@
 			</dict>
 			<key>IOClass</key>
 			<string>Intel82574L</string>
-			<key>IOPCIMatch</key>
-			<string>0x10D38086 0x104b8086 0x10f68086</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x104b8086 0x10f68086</string>
+			<key>IOPCISecondaryMatch</key>
+			<string>0x00008086 0x00000000</string>
 			<key>IOPCITunnelCompatible</key>
 			<true/>
 			<key>IOProviderClass</key>
