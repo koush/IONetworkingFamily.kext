@@ -35,7 +35,7 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>15G1002</string>
+	<string>15G1107</string>
 	<key>DTSDKName</key>
 	<string>macosx10.11internal</string>
 	<key>DTXcode</key>
@@ -77,8 +77,10 @@
 			</dict>
 			<key>IOClass</key>
 			<string>Intel82574L</string>
-			<key>IOPCIMatch</key>
-			<string>0x10D38086 0x104b8086 0x10f68086</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x104b8086 0x10f68086</string>
+			<key>IOPCISecondaryMatch</key>
+			<string>0x00008086 0x00000000</string>
 			<key>IOPCITunnelCompatible</key>
 			<true/>
 			<key>IOProviderClass</key>
